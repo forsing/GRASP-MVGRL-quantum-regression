@@ -23,7 +23,7 @@ from qiskit_machine_learning.utils import algorithm_globals
 from qiskit.circuit.library import ZZFeatureMap, TwoLocal
 from qiskit.quantum_info import Statevector, Pauli
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4580_k21.csv"
+CSV_PATH = "/data/loto7hh_4580_k21.csv"
 
 df = pd.read_csv(CSV_PATH)
 print()
@@ -215,7 +215,7 @@ def main():
     print()
     """
     Predikcija (MVGRL + kvantna regresija, deterministički, strukturno):
-    (8, 11, 23, 26, 33, 34, 35)
+    (8, 11, x, y, z, 34, 35)
 
     Score: 0.5064465721169786
     """
